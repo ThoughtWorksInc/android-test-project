@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/reports
+/captures
+/.idea
+*.iml
+.externalNativeBuild
+.log
+nohup.out
