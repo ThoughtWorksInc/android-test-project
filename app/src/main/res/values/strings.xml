@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">android-test-project</string>
+    <string name="app_name">Hotel Reservation</string>
     <string name="check_in_label">Check in date</string>
     <string name="check_out_label">Check out Date</string>
     <string name="reward_client">Reward client?</string>
