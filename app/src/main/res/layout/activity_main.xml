@@ -59,21 +59,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/checkOutTextView" />
 
-        <Switch
+        <com.google.android.material.switchmaterial.SwitchMaterial
             android:id="@+id/rewardSwitch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/checkOutCalendarView"
-            android:switchPadding="8dp"
             android:text="@string/reward_client"
             app:layout_constraintBottom_toTopOf="@+id/bestPricesButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/checkOutCalendarView" />
+            app:layout_constraintTop_toBottomOf="@+id/checkOutCalendarView"
+            app:switchPadding="8dp" />
 
         <Button
             android:id="@+id/bestPricesButton"
-            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/rewardSwitch"
