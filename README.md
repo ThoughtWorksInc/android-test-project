@@ -1,7 +1,7 @@
 Nearly empty Android project with a unit and UI failing test!
 ===
 
-This has been created using Android Studio 4.0.1; to run the unit tests, just execute:
+This has been created using Android Studio 4.1.1; to run the unit tests, just execute:
 
 ```
 ./gradlew test
